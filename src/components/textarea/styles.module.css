@@ -1,0 +1,56 @@
+.textareaKapsayici {
+  height: 100%;
+  min-height: 200px;
+  background-color: antiquewhite;
+  position: relative;
+}
+.mytextarea {
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: bolder;
+  border: none;
+}
+.colorbtnsContainer {
+  position: absolute;
+  bottom: 0.5rem;
+  left: 1rem;
+}
+.colorbtnsContainer button {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  margin: 0.3rem;
+  border: none;
+}
+.redbtn {
+  background-color: red;
+}
+.purplebtn {
+  background-color: rebeccapurple;
+}
+.yellowbtn {
+  background-color: sandybrown;
+}
+.aquabtn {
+  background-color: rgb(74, 158, 173);
+}
+.greenbtn {
+  background-color: yellowgreen;
+}
+
+.addbtnContainer {
+  position: absolute;
+  display: inline;
+  bottom: 0.8rem;
+  right: 1rem;
+}
+.addbtn {
+  border: none;
+  border-radius: 15px;
+  background-color: #44c767;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 0.4rem 1.2rem;
+}
+
