@@ -12,7 +12,7 @@ function Search() {
   };
 
   return (
-    <div>
+    <div className={styles.searchContainer}>
       <input
         className={styles.searchinput}
         placeholder="Search..."
