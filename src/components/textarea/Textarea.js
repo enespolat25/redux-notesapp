@@ -28,8 +28,8 @@ function Textarea() {
         placeholder="Enter your note here..."
         name=""
         id=""
-        // cols="30"
-        // rows="10"
+        cols="30"
+        rows="10"
         value={text}
         onChange={(e) => setText(e.target.value, e.target)}
       ></textarea>
