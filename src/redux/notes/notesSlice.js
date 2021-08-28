@@ -7,12 +7,17 @@ export const notesSlice = createSlice({
       {
         id: nanoid(),
         text: "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet",
-        color: "yellow",
+        color: "green",
       },
       {
         id: nanoid(),
         text: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium",
-        color: "red",
+        color: "blue",
+      },
+      {
+        id: nanoid(),
+        text: "Omnis iste natus error sit voluptatem accusantium doloremque laudantium",
+        color: "yellow",
       },
     ],
   },

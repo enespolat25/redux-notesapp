@@ -1,6 +1,5 @@
 .contentContainer {
   padding: 2rem 0.5rem;
-  background-color: chartreuse;
   width: 100%;
   display: grid;
   grid-auto-rows: auto;
@@ -17,5 +16,10 @@
 @media screen and (max-width: 617px) {
   .contentContainer {
     justify-content: center;
+  }
+}
+@media screen and (min-width: 1230px) {
+  .contentContainer {
+    max-width: 1000px;
   }
 }

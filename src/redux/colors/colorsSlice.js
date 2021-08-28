@@ -3,7 +3,7 @@ import { createSlice } from "@reduxjs/toolkit";
 export const colorsSlice = createSlice({
   name: "colors",
   initialState: {
-    color: "",
+    color: "green",
     colorbtns: [
       {
         value: "red",
@@ -23,7 +23,7 @@ export const colorsSlice = createSlice({
       },
       {
         value: "green",
-        checked: false,
+        checked: true,
       },
     ],
   },

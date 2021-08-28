@@ -44,3 +44,21 @@
   background-size: contain;
   background-position: center center;
 }
+
+@media screen and (min-width: 617px) {
+  .textareaKapsayici {
+    min-width: 500px;
+  }
+  .mytextarea {
+    min-width: 500px;
+  }
+}
+
+@media screen and (min-width: 951px) {
+  .textareaKapsayici {
+    min-width: 800px;
+  }
+  .mytextarea {
+    min-width: 800px;
+  }
+}
