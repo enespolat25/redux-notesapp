@@ -5,10 +5,12 @@
   position: relative;
 }
 .mytextarea {
+  height: 100%;
   padding: 1rem;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bolder;
   border: none;
+  color: rgb(73, 73, 73);
 }
 .colorbtnsContainer {
   position: absolute;
@@ -45,6 +47,41 @@
   background-position: center center;
 }
 
+@media screen and (max-width: 617px) {
+  .textareaKapsayici {
+    min-width: 300px;
+    height: 100%;
+  }
+  .mytextarea {
+    font-size: 1rem;
+    min-width: 100%;
+    height: 100%;
+  }
+  .colorbtnsContainer button {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    margin: 0.25rem;
+    border: none;
+  }
+  .addbtnContainer {
+    position: absolute;
+    display: inline;
+    bottom: 0.6rem;
+    right: 0.5rem;
+  }
+  .addbtn {
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    background-color: #44c767;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 0.4rem 1.2rem;
+  }
+}
+
 @media screen and (min-width: 617px) {
   .textareaKapsayici {
     min-width: 500px;
@@ -57,6 +94,7 @@
 @media screen and (min-width: 951px) {
   .textareaKapsayici {
     min-width: 800px;
+    min-height: 300px;
   }
   .mytextarea {
     min-width: 800px;
