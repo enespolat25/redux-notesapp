@@ -22,21 +22,6 @@
   margin: 0.3rem;
   border: none;
 }
-.redbtn {
-  background-color: red;
-}
-.purplebtn {
-  background-color: rebeccapurple;
-}
-.yellowbtn {
-  background-color: sandybrown;
-}
-.aquabtn {
-  background-color: rgb(74, 158, 173);
-}
-.greenbtn {
-  background-color: yellowgreen;
-}
 
 .addbtnContainer {
   position: absolute;
@@ -45,6 +30,7 @@
   right: 1rem;
 }
 .addbtn {
+  cursor: pointer;
   border: none;
   border-radius: 15px;
   background-color: #44c767;
@@ -53,4 +39,8 @@
   font-size: 1rem;
   padding: 0.4rem 1.2rem;
 }
-
+.checked {
+  background-image: url(../../tick.png);
+  background-size: contain;
+  background-position: center center;
+}

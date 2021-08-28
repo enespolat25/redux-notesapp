@@ -6,3 +6,26 @@
   flex-direction: column;
   align-items: center;
 }
+.red {
+  background-color: #f06292;
+}
+.purple {
+  background-color: #ba68c8;
+}
+.yellow {
+  background-color: #ffd54f;
+}
+.blue {
+  background-color: #4fc3f7;
+}
+.green {
+  background-color: #aed581;
+}
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+textarea {
+  resize: none;
+}
